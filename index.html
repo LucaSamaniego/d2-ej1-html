@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<style>
+    * {
+        margin:0;
+    }
+
+    :root {
+        --color1: #0a2ff1;
+        --colorfondotext: #3ffff3;
+        --font1: 'Poppins', bold;
+        --font2: 'Poppins', medium;
+    }
+
+    body {
+        width: 730px;
+    }
+
+    h1 {
+        color:var(--color1);
+        font-family: var(--font1);
+        font-size: 59pt;
+        margin-bottom: 70px;
+    }
+
+    h1 strong {
+        background-color: var(--colorfondotext);
+    }
+
+    p {
+        color: var(--color1);
+        font-family: var(--font2);
+        font-size: 23pt;
+        margin-bottom: 20px;
+    }
+
+    div #imgfondo {
+        width: 360px;
+        position: absolute;
+        z-index: -1;
+        height: 400px;
+        margin-top: 133px;
+    }
+
+    div #imgcel {
+        width: 360px;
+        position: absolute;
+        z-index: 1;
+    }
+    div {
+        width: 360px;
+
+
+    }
+</style>
+<body>
+    <h1>
+        Estrategia visual para <strong>Social Media</strong>
+    </h1>
+    <p>
+        Creamos contenido que refleje la personalidad de tu marca. ¡Hagamos crecer tu negocio!
+    </p>
+
+    <div>
+        <img id="imgfondo" src="./fondo.JPG" alt="fondo">
+        <img id="imgcel" src="./celu.png" alt="celu">
+    </div>
+        
+</body>
+</html>
